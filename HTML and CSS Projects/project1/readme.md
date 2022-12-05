@@ -1,3 +1,3 @@
 ## Output
 
-[output](/HTML%20and%20CSS%20Projects/project1/index.html)
+[Netlify link](dancing-faun-dd7747.netlify.app)
