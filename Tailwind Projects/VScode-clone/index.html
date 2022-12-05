@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visual Studio Code - Code Editing. Redefined</title>
+    <link rel="icon" href="/Tailwind Projects/VScode-clone/images/visual-studio-code-icon.png">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <nav class="flex m-0 p-0 justify-center bg-[#2C2C32] m-auto h-[50px] text-white text-base sticky top-0 z-10 shadow-lg shadow-[rgb(0 0 0 / 33%)]">
+        <div class="flex px-7 py-2 items-center mr-[100px]">
+            <img class="w-7 h-7 " src="/Tailwind Projects/VScode-clone/images/visual-studio-code-icon.png" alt="vscode-icon">
+            <h1 class="text-2xl mr-8 ml-3">Visual Studio Code</h1>
+            <ul class="mr-9 text-gray-400" >
+                <a href="#" class="mr-3 hover:text-white">Docs</a>
+                <a href="#" class="mr-3 hover:text-white">Updates</a>
+                <a href="#" class="mr-3 hover:text-white">Blog</a>
+                <a href="#" class="mr-3 hover:text-white">API</a>
+                <a href="#" class="mr-3 hover:text-white">Extensions</a>
+                <a href="#" class="mr-3 hover:text-white">FAQ</a>
+                <a href="#" class="mr-3 hover:text-white">Learn</a>
+            </ul>
+        </div>
+        <div class="flex items-center mt-0 ">
+            <img class="w-4 h-4 absolute ml-4" src="/Tailwind Projects/VScode-clone/images/search-icon.svg" alt="search-icon">
+            <input class="pl-[55px]  w-[200px] mt-0 bg-[rgba(255,255,255,.08)] h-[50px] hover:bg-[#89898D]" type="search" placeholder="Search Docs">
+        </div>
+        <div class="flex items-center">
+            <img class="w-5 absolute mx-2 " src="/Tailwind Projects/VScode-clone/images/download-icon-white.svg" alt="download-logo">
+            <button class="px-8 pl-11 h-[50px] bg-[#0066b8]">Download</button>
+        </div>
+    </nav>
+    <main>
+        <div id="update-version-message"class="bg-[#25252B] h-[35px] flex justify-center items-center text-base text-[#CCCCCC]">
+            <p><span class="text-[#0098FF]">Version 1.73</span> is now available! Read about the new features and fixes from October.</p>
+        </div>
+        <div class="bg-[#2C2C32] text-white font-light text-xs p-1">
+            <p>*Website cloned for educational purpose</p>
+        </div>
+        <div id="master-content-main" class="flex items-center justify-center bg-[#2C2C32] px-20 py-20">
+            <div id="master-content-left" class=" relative top-[-100px] left-[-50px] text-white w-[550px]">
+                <h1 class="text-5xl font-light text-center">Code editing. <br><span class="font-normal">Redefined.</span></h1>
+                <p class="text-center mt-5 text-[#ABABAD] text-lg">Free. Built on open source. Runs everywhere</p>
+                <div class="flex justify-center mt-5">
+                    <button class="text-lg bg-[#0066b8] px-8 py-2">
+                        <span class="font-medium ">Download for Windows.</span> <br>Stable build
+                    </button>
+                    <button class="bg-[#0066b8] ml-1 w-[62px]">
+                        <span><img class="w-7 h-5 ml-4" src="/Tailwind Projects/VScode-clone/images/SeekPng.com_white-arrow-png_87169.png" alt="down-arrow"></span>
+                    </button>
+                </div>
+                <div class="w-6 h-6 bg-[#25252B] rotate-45 relative left-[400px] top-3.5"></div>
+                <p class="bg-[#25252B] px-7 py-3 w-[350px] rounded-xl text-[#2056DD]  text-sm relative left-[100px]">Web<span class="text-[#ABABAD]">,</span> Insiders edition<span class="text-[#ABABAD]">, or </span>other platforms</p>
+                <p class="mt-5 text-center text-[#ABABAD]">By using VS Code, you agree to its <br><span class="text-[#2056DD]">license and privacy statement.</span> </p>
+            </div>
+            <div id="master-content-right">
+                <img class="h-[520px]" src="/Tailwind Projects/VScode-clone/images/vscode.png" alt="vscode-image">
+            </div>
+        </div>
+        <div id="features-bar" class="flex justify-center items-center text-lg ">
+            <div class="px-20 py-3 hover:bg-gray-200">
+                
+                <img class="w-[80px]" src="/Tailwind Projects/VScode-clone/images/intellisense-icon.svg" alt="icon">
+                <h1>IntelliSense</h1>
+            </div>
+            <div class="px-20 py-3 hover:bg-gray-200">
+                <img class="w-[80px] hover:stroke-red-500" src="/Tailwind Projects/VScode-clone/images/runanddebug-icon.svg" alt="icon">
+                <h1>Run and Debug</h1>
+            </div>
+            <div class="px-20 py-3 hover:bg-gray-200">
+                <img class="w-[80px]" src="/Tailwind Projects/VScode-clone/images/builtingit-icon.svg" alt="icon">
+                <h1>Built-in-Git</h1>
+            </div>
+            <div class="px-20 py-3 hover:bg-gray-200">
+                <img class="w-[80px]" src="/Tailwind Projects/VScode-clone/images/extensions-icon.svg" alt="icon">
+                <h1>Extensions</h1>
+            </div>
+        </div>
+        <div id="feedback" class="flex justify-center items-center py-[50px] px-[140px] bg-[#F5F5F5]">
+            <div class="flex p-5">
+                <img class="w-10 h-10 relative top-[60px] right-[20px]" src="/Tailwind Projects/VScode-clone/images/left-arrow.png" alt="arrow">
+                <img class="w-[80px] h-[80px] rounded-full" src="https://images.unsplash.com/photo-1628157588553-5eeea00af15c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzZ8fHByb2ZpbGUlMjBwaWN0dXJlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60" alt="profile">
+                <div class="px-3">
+                    <h1 class="font-bold">Paul Wood <span class="font-normal text-xs ml-1">@jpaul</span></h1>
+                    <p class="mt-2">VS @code does so many things right. I’m constantly impressed by the UX, and customizing workspace / user preferences is no exception. 🙌🏼💯 It just keeps getting better ❤️</p>
+                </div>
+            </div>
+            <div class="flex p-5">
+                <img class="w-[80px] h-[80px] rounded-full" src="/Tailwind Projects/VScode-clone/images/myphoto.jpg" alt="photo">
+                <div class="px-3">
+                    <h1 class="font-bold">Nithin P <span class="font-normal text-xs ml-1">@nithin11</span></h1>
+                    <p class="mt-2">VS Code will have deep remote development. You can connect to a container running a different OS and use any VS Code plugins, linting, debugging for that environment. 🔥🔥🔥</p>
+                </div>
+            </div>
+            <div class="flex p-5">
+                <img class="w-[80px] h-[80px] rounded-full" src="https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvZmlsZSUyMHJvdW5kZWR8ZW58MHx8MHx8&auto=format&fit=crop&w=400&q=60" alt="photo">
+                <div class="px-3">
+                    <h1 class="font-bold">Max Troy <span class="font-normal text-xs ml-1">@max33</span></h1>
+                    <p class="mt-2">VS Code is my most used and favorite editor. I love being able to customize the editor - changing the layout, the icons, fonts and color scheme is so easy!</p>
+                </div>
+                <img class="w-10 h-10 relative top-[50px] left-[20px]" src="/images/right-arrow.png" alt="arrow">
+            </div>
+        </div>
+        <div id="Intellisense" class="h-[330px] flex justify-center py-[50px]">
+            <img class="h-[230px]" src="/Tailwind Projects/VScode-clone/images/home-intellisense.svg" alt="intellisense">
+            <div class="ml-[80px] w-[500px] font-light w-1/2">
+                <h1 class="text-3xl">Meet IntelliSense.</h1>
+                <p class="leading-9 font-normal text-lg mt-5">Go beyond syntax highlighting and autocomplete with IntelliSense, which provides smart completions based on variable types, function definitions, and imported modules.</p>
+            </div>
+        </div>
+        <div id="debugging" class="h-[330px] flex justify-center py-[50px] bg-[#F5F5F5]">
+            <div class="ml-[80px] w-1/2 font-light  mr-[80px]">
+                <h1 class="text-3xl">Print statement debugging is a thing of the past.</h1>
+                <p class="text-lg mt-5 leading-9 font-normal">Debug code right from the editor. Launch or attach to your running apps and debug with break points, call stacks, and an interactive console.</p>
+            </div>
+            <img class="h-[230px]" src="/Tailwind Projects/VScode-clone/images/home-debug.svg" alt="debugging">
+        </div>
+        <div id="git-commands" class="h-[330px] flex justify-center py-[50px]">
+            <img class="h-[230px]" src="/images/home-git.svg" alt="git">
+            <div class="ml-[80px] w-[500px] font-light w-1/2">
+                <h1 class="text-3xl">Git commands built-in.</h1>
+                <p class="text-lg mt-5 leading-9 font-normal">Working with Git and other SCM providers has never been easier. Review diffs, stage files, and make commits right from the editor. Push and pull from any hosted SCM service.</p>
+            </div>
+        </div>
+        <div id="Extensions" class="h-[330px] flex justify-center py-[50px] bg-[#F5F5F5]">
+            <div class="ml-[80px] w-1/2 font-light  mr-[80px]">
+                <h1 class="text-3xl">Extensible and customizable.</h1>
+                <p class="text-lg mt-5 leading-9 font-normal">Want even more features? Install extensions to add new languages, themes, debuggers, and to connect to additional services. Extensions run in separate processes, ensuring they won't slow down your editor.<a href="#" class="text-[#0066b8] hover:underline"> Learn more about extensions.</a></p>
+            </div>
+            <img class="h-[230px]" src="/Tailwind Projects/VScode-clone/images/Hundreds-of-Extensions.png" alt="debugging">
+        </div>
+        <div id="azure" class="h-[330px] flex justify-center py-[50px]">
+            <img class="h-[230px]" src="/Tailwind Projects/VScode-clone/images/home-azure.svg" alt="git">
+            <div class="ml-[80px] w-[500px] font-light w-1/2">
+                <h1 class="text-3xl">
+                    Deploy with confidence and ease</h1>
+                <p class="text-lg mt-5 leading-9 font-normal">With <a href="#" class="text-[#0066b8] hover:underline">Microsoft Azure</a> you can deploy and host your React, Angular, Vue, Node, Python (and more!) sites, store and query relational and document based data, and scale with serverless computing, all with ease, <a href="#" class="text-[#0066b8] hover:underline">all from within VS Code.</a></p>
+            </div>
+        </div>
+        <div id="table" class="bg-[#f5f5f5] px-10 py-10">
+            <h1 class="text-center text-3xl font-light">VS Code for</h1>/Tailwind Projects/VScode-clone
+            <div class="mt-10">
+                <div class="flex justify-center">
+                    <div class="w-[100px] mr-10 flex items-center"><img src="/Tailwind Projects/VScode-clone/images/small-icons/javascript.svg" alt="icon">Javascript</div>
+                    <div class="w-[100px] mr-10 flex items-center"><img src="/Tailwind Projects/VScode-clone/images/small-icons/python.svg" alt="">Python</div>
+                    <div class="w-[100px] mr-10 flex items-center"><img src="/Tailwind Projects/VScode-clone/images/small-icons/java.svg" alt="">Java</div>
+                    <div class="w-[100px] mr-10 flex items-center"><img src="/Tailwind Projects/VScode-clone/images/small-icons/markdown.svg" alt="">Markdown</div>
+                    <div class="w-[100px] mr-10 flex items-center"><img src="/Tailwind Projects/VScode-clone/images/small-icons/typescript.svg" alt="">Typescript</div>
+                    <div class="w-[100px] mr-10 flex items-center"><img src="/Tailwind Projects/VScode-clone/images/small-icons/cpp.svg" alt="">C/C++</div>
+                </div>
+                <div class="flex justify-center mt-5">
+                    <div class="w-[100px] mr-10 flex items-center"><img src="/Tailwind Projects/VScode-clone/images/small-icons/json.svg" alt="icon">JSON</div>
+                    <div class="w-[100px] mr-10 flex items-center"><img src="/Tailwind Projects/VScode-clone/images/small-icons/powershell.svg" alt="">Powershell</div>
+                    <div class="w-[100px] mr-10 flex items-center"><img src="/Tailwind Projects/VScode-clone/images/small-icons/html.svg" alt="">HTML/CSS</div>
+                    <div class="w-[100px] mr-10 flex items-center"><img src="/Tailwind Projects/VScode-clone/images/small-icons/csharp.svg" alt="">C#</div>
+                    <div class="w-[100px] mr-10 flex items-center"><img src="/Tailwind Projects/VScode-clone/images/small-icons/php.svg" alt="">PHP</div>
+                    <div class="w-[100px] mr-10 flex items-center"><img src="/Tailwind Projects/VScode-clone/images/small-icons/yaml.svg" alt="">YAML</div>
+                </div>
+            </div>
+            <h2 class="text-center text-lg font-normal mt-8 text-[#0066b8]">and many more languages on the Marketplace...</h2>
+            <button class="w-[200px] bg-[#0066b8] px-4 py-4 relative left-[620px] mt-10 text-white text-lg font-semibold">Get Started Now</button>
+        </div>
+        <div id="downloads-section" class="p-[50px] flex justify-center items-start">
+            <div id="windows" class="mt-10 mr-10">
+                <img class="w-[100px] h-[100px] mx-auto" src="/Tailwind Projects/VScode-clone/images/windows-logo.png" alt="windows-logo">
+                <button class="bg-[#0066b8] px-3 py-3 flex justify-center mx-auto mt-4 w-[250px]">
+                    <img class="w-5 mr-2 relative top-4" src="/Tailwind Projects/VScode-clone/images/download-icon-white.svg" alt="icon">
+                    <p class="text-white text-xl"> Windows <br> <span class="text-white text-xs">Windows 8, 10, 11</span></p>
+                </button>
+                <div class="  flex items-center text-xs justify-end w-[230px] mt-3">
+                    <h1 class="font-medium text-base">User Installer</h1>
+                    <button class="bg-[#0066b8] rounded text-white mx-1 mt-2 p-[1px]">x64</button>
+                    <button class="bg-[#0066b8] rounded text-white mx-1 mt-2 p-[1px]">x86</button>
+                    <button class="bg-[#0066b8] rounded text-white mx-1 mt-2 p-[1px]">Arm64</button>
+                </div>
+                <div class="flex items-center text-xs justify-end w-[230px]">
+                    <h1 class="font-medium text-base">System Installer</h1>
+                    <button class="bg-[#0066b8] rounded text-white mx-1 mt-2 p-[1px]">x64</button>
+                    <button class="bg-[#0066b8] rounded text-white mx-1 mt-2 p-[1px]">x86</button>
+                    <button class="bg-[#0066b8] rounded text-white mx-1 mt-2 p-[1px]">Arm64</button>
+                </div>
+                <div class="flex items-center text-xs justify-end w-[230px]">
+                    <h1 class="font-medium text-base">.zip</h1>
+                    <button class="bg-[#0066b8] rounded text-white mx-1 mt-2 p-[1px]">x64</button>
+                    <button class="bg-[#0066b8] rounded text-white mx-1 mt-2 p-[1px]">x86</button>
+                    <button class="bg-[#0066b8] rounded text-white mx-1 mt-2 p-[1px]">Arm64</button>
+                </div>
+            </div>
+            <div id="linux" class="mt-10">
+                <img class="w-[80px] h-[100px] mx-auto" src="/Tailwind Projects/VScode-clone/images/linux-logo.png" alt="linux-logo">
+                <div class="flex mt-4 mx-auto">
+                    <button class="bg-[#0066b8] w-[185px] px-3 py-3 flex justify-center mr-1">
+                        <img class="w-5 mr-2 relative top-4" src="/Tailwind Projects/VScode-clone/images/download-icon-white.svg" alt="icon">
+                        <p class="text-white text-xl">.deb <br><span class="text-white text-xs"> Debian, Ubuntu</span></p>
+                    </button>
+                    <button class="bg-[#0066b8] w-[185px] px-3 py-3 justify-center flex">
+                        <img class="w-5 mr-2 relative top-4" src="/images/download-icon-white.svg" alt="icon">
+                        <p class="text-white text-xl">.rpm <br><span class="text-white text-xs"> Red Hat, Ferora, SUSE</span></p>
+                    </button>
+                </div>
+                <div class="flex items-center text-xs  w-[374px] justify-center mt-3">
+                    <h1 class="font-medium text-base">.deb</h1>
+                    <button class="bg-[#0066b8] rounded text-white mx-1 mt-2 p-[1px]">x64</button>
+                    <button class="bg-[#0066b8] rounded text-white mx-1 mt-2 p-[1px]">x86</button>
+                    <button class="bg-[#0066b8] rounded text-white mx-1 mt-2 p-[1px]">Arm64</button>
+                </div>
+                <div class="flex items-center text-xs w-[374px] justify-center">
+                    <h1 class="font-medium text-base">.rpm</h1>
+                    <button class="bg-[#0066b8] rounded text-white mx-1 mt-2 p-[1px]">x64</button>
+                    <button class="bg-[#0066b8] rounded text-white mx-1 mt-2 p-[1px]">x86</button>
+                    <button class="bg-[#0066b8] rounded text-white mx-1 mt-2 p-[1px]">Arm64</button>
+                </div>
+                <div class="flex items-center text-xs w-[374px] justify-center">
+                    <h1 class="font-medium text-base">.tar.gz</h1>
+                    <button class="bg-[#0066b8] rounded text-white mx-1 mt-2 p-[1px]">x64</button>
+                    <button class="bg-[#0066b8] rounded text-white mx-1 mt-2 p-[1px]">x86</button>
+                    <button class="bg-[#0066b8] rounded text-white mx-1 mt-2 p-[1px]">Arm64</button>
+                </div>
+                <div class="flex items-center text-xs w-[374px] justify-center relative right-4">
+                    <h1 class="font-medium text-base">Snap</h1>
+                    <button class="bg-[#0066b8] rounded text-white mx-1 mt-2 p-[1px]">Snap store</button>
+                </div>
+            </div>
+            <div id="mac" class="mt-10 ml-10">
+                <img class="h-[100px] w-[100px] mx-auto" src="/Tailwind Projects/VScode-clone/images/apple-logo.svg" alt="logo">
+                <button class="bg-[#0066b8] px-3 py-3 flex justify-center mt-4  mx-auto w-[250px]">
+                    <img class="w-5 mr-2 relative top-4" src="/Tailwind Projects/VScode-clone/images/download-icon-white.svg" alt="icon">
+                    <p class="text-white text-xl">Mac <br><span class="text-white text-xs">macOS 10.11+</span></p>
+                </button>
+                <div class="flex items-center text-xs justify-end w-[230px] mt-3">
+                    <h1 class="font-medium text-base">.zip</h1>
+                    <button class="bg-[#0066b8] rounded text-white mx-1 mt-2 p-[1px]">Universal</button>
+                    <button class="bg-[#0066b8] rounded text-white mx-1 mt-2 p-[1px]">Intel chip</button>
+                    <button class="bg-[#0066b8] rounded text-white mx-1 mt-2 p-[1px]">Apple silicon</button>
+                </div>
+            </div>
+        </div>
+        <div id="miscellaneous-info" class="py-[50px] bg-[#F5F5F5]">
+            <div class="flex h-[100px] justify-center">
+                <div class="mr-[250px]">
+                    <h1 class="text-lg font-semibold">Want new features sooner?</h1>
+                    <p class="mt-2">Get the <a href="#" class="text-[#0066B8] hover:underline">Insiders build</a>  instead.</p>
+                </div>
+                <div>
+                    <h1 class="text-lg font-semibold text-center">Use <a href="#" class="text-[#0066B8] hover:underline"> vscode.dev</a> for quick edits <br> online!</h1>
+                    <p class="mt-2">GitHub, Azure Repos, and local files.</p>
+                </div>
+            </div>
+            <div class="text-center px-[400px]">
+                <h1 class="text-xs font-semibold mt-10">LICENSE AND PRIVACY TERMS</h1>
+                <p class="text-sm leading-8 mt-4">By downloading and using Visual Studio Code, you agree to the <a href="#" class="text-[#0066B8] hover:underline">license terms</a> and <a href="#" class="text-[#0066B8] hover:underline">privacy statement.</a> VS Code automatically sends telemetry data and crash dumps to help us improve the product. If you would prefer not <br> to have this data sent please go see <a href="#" class="text-[#0066B8] hover:underline">How to Disable Crash Reporting</a> to learn how to disable it.</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="h-[90px] bg-[#333333] flex justify-between px-[150px]">
+            <div class="flex items-center">
+                <h1 class="text-white text-sm mr-3">Hello from Seattle.</h1>
+                <button class="px-2 text-white text-sm mr-3 hover:text-[#B488B0]">Follow @code</button>
+                <button class="px-2 border rounded flex items-center bg-[#FBFBFB] mr-1">
+                    <img class="w-3 h-3 mr-1" src="/Tailwind Projects/VScode-clone/images/github-logo.png" alt="github-logo">
+                    <h1 class="text-xs">Star</h1>
+                </button>
+                <button class="px-2 border rounded bg-[#FBFBFB]">
+                    <h1 class="text-xs">139,672</h1>
+                </button>
+            </div>
+            <div class="flex items-center">
+                <a href="#" class="mr-4 text-white text-sm hover:text-[#B488B0]">Support</a>
+                <a href="#" class="mr-4 text-white text-sm hover:text-[#B488B0]">Privacy</a>
+                <a href="#" class="mr-4 text-white text-sm hover:text-[#B488B0]">Terms of Use</a>
+                <a href="#" class="mr-4 text-white text-sm hover:text-[#B488B0]">License</a>
+                <button>
+                    <img class="w-[100px]" src="/Tailwind Projects/VScode-clone/images/microsoft-logo.png" alt="">
+                    <span class="text-xs text-white">©️ 2022 Microsoft</span>
+                </button>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+

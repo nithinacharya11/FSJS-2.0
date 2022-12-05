@@ -1,0 +1,107 @@
+.container {
+    padding: 20px;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list {
+    display: flex;
+}
+
+li {
+    margin: 20px;
+    list-style-type: none;
+    font-size: 1.2rem;
+}
+
+.list li:hover {
+    font-weight: bold;
+}
+
+.search-icon svg {
+    height: 20px;
+    margin-right: 25px;
+}
+
+.nav-button {
+    border: 2px solid black;
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 5px 25px;
+    font-size: 15px;
+
+}
+
+.button-group {
+    display: flex;
+}
+
+.square img {
+    height: 280px;
+    position: relative;
+    top: 240px;
+    left: 100px;
+}
+
+.person-hero-image {
+    height: 400px;
+    position: absolute;
+    top: 170px;
+}
+
+.globe img {
+    height: 50px;
+    position: absolute;
+    left: 850px;
+}
+
+.star img {
+    height: 40px;
+    position: absolute;
+    right:30px;
+    top: 175px;
+}
+
+.hero-container-right {
+    position: absolute;
+    right: 200px;
+    top: 180px;
+    width: 700px;
+    text-align: center;
+}
+
+.star2 img {
+    position: absolute;
+    height: 40px;
+    top: 550px;
+    left: 500px;
+}
+
+.hero-heading {
+    font-size: 65px;
+}
+
+.button-email {
+    margin-top:65px;
+    padding: 5px 25px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    font-size: 1.2rem;
+}
+
+.button-join {
+    margin-top:55px;
+    padding: 5px 25px;
+    background-color: black;
+    color: #ffffff;
+    border-radius: 10px;
+    font-size: 1.2rem;
+}
+
+.contact-heading {
+    margin-top: 50px;
+}

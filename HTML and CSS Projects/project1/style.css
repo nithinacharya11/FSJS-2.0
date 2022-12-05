@@ -1,0 +1,55 @@
+.container {
+    padding: 20px;
+}
+
+.navbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.list {
+    display: flex;
+}
+
+
+.list-item {
+    margin: 10px;
+    list-style-type: none;
+    color: #CAD5E2;
+}
+
+.list-item:hover {
+    color: #120E43;
+}
+
+.nav-button {
+    padding: 12px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #5A20CB ;
+    color: white;
+}
+
+.banner-container {
+    display: flex;
+}
+
+.heading-text {
+    font-size: 3rem;
+    color: #120E43;
+}
+
+span {
+    color: #5A20CB;
+}
+
+.description{
+    color: #CAD5E2;
+}
+
+.banner-container {
+    display: flex;
+    align-items: center;
+}
