@@ -1,6 +1,6 @@
 ## Articles on HTML
-1. Introduction to web and HTML
-[](https://nithinacharya11.hashnode.dev/introduction-to-web-and-html)
+
+[1. Introduction to web and HTML](https://nithinacharya11.hashnode.dev/introduction-to-web-and-html)
 
 ## Articles on CSS
 1. Selectors in CSS
