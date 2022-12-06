@@ -4,4 +4,4 @@
 
 #### [Live link](https://shiny-genie-761a29.netlify.app)
 
-![webpage](/HTML%20and%20CSS%20Projects/project5/webpage.png)
+![webpage](/HTML%20and%20CSS%20Projects/Project5/webpage.png)
