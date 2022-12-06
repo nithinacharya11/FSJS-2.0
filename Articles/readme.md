@@ -1,6 +1,10 @@
 ## Articles on HTML
 
-[1. Introduction to web and HTML](https://nithinacharya11.hashnode.dev/introduction-to-web-and-html)
+[1. Introduction to web server and HTML](https://nithinacharya11.hashnode.dev/introduction-to-web-and-html)
+
+[2. HTML input elements](https://nithinacharya11.hashnode.dev/html-input-elements)
+
+[2. HTML Audio and Video tags](https://nithinacharya11.hashnode.dev/html-audio-video-tags)
 
 ## Articles on CSS
 
