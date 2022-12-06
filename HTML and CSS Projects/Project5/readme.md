@@ -4,4 +4,4 @@
 
 #### [Live link](https://shiny-genie-761a29.netlify.app)
 
-![webpage](/HTML%20and%20CSS%20Projects/project5/webpage.png)
+![webpage](C:\Users\ASUS\OneDrive\Desktop\FSJS 2.0\HTML and CSS Projects\project5\webpage.png)
