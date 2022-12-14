@@ -1,0 +1,161 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #151515;
+    
+}
+
+header .container {
+    padding: 10px 150px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-list {
+    display: flex;
+}
+
+.nav-list li {
+    margin-right: 10px;
+    list-style-type: none;
+    color: white;
+}
+
+.navbar select,
+.navbar button {
+    background-color: #151515;
+    border: none;
+    color: white;
+}
+
+.main-section-hero .container {
+    padding: 10px 150px;
+}
+
+.hero-left-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 75%;
+    color: white;
+}
+
+.hero-right-section img {
+    width: 650px;
+}
+
+#back-image {
+    position: absolute;
+    top: 75px;
+    right: 140px;
+}
+
+
+#front-image {
+    position: absolute;
+    top: 140px;
+    right: 20px;
+}
+
+.hero-heading {
+    font-size: 35px;
+}
+
+.user-numbers {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.user-numbers h1 {
+    font-size: 30px;
+}
+
+.hero-left-section button {
+    font-size: 25px;
+    background-color: #151515;
+    border: none;
+    color: white;
+}
+
+.logo-section .container {
+    width: 100%;
+    background-color: #292929;
+    padding: 50px;
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+
+.logo-section img {
+    width: 100px;
+}
+
+.transaction-features .container {
+    padding: 50px 150px 80px 150px;
+}
+
+.transaction-features .top-section {
+    display: flex;
+    gap:30px;
+    align-items: center;
+    color: white;
+}
+
+.transaction-features h1 {
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.transaction-features .bottom-section {
+    margin-top: 70px;
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+}
+
+.dollar,
+.cloud,
+.lock {
+    padding: 20px;
+    border: 1px solid white;
+    background-color: #272727;
+    color: white;
+    text-align: center;
+}
+
+.dollar img,
+.cloud img,
+.lock img{
+    width: 100px;
+}
+
+.cloud {
+    position: relative;
+    bottom: 40px;
+    background-color: #565555;
+}
+
+.card-choices .container {
+    background-color: #FCEFFB;
+    padding: 10px 400px;
+    text-align: center;
+}
+
+.card-choices h1 {
+    font-size: 55px;
+}
+
+.card-choices img {
+    width: 800px;
+    position: relative;
+    right: 45px;
+    bottom: 40px;
+}
