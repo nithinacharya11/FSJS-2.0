@@ -4,7 +4,6 @@
 
 body {
     background-color: #151515;
-    
 }
 
 header .container {
@@ -32,6 +31,16 @@ header .container {
     background-color: #151515;
     border: none;
     color: white;
+}
+
+.navbar button {
+    margin-left: 40px;
+}
+
+.navbar button img {
+    position: relative;
+    right: 39px;
+    bottom: 18px;
 }
 
 .main-section-hero .container {
@@ -67,6 +76,10 @@ header .container {
     font-size: 35px;
 }
 
+.hero-heading span {
+    color: #F637EC;
+}
+
 .user-numbers {
     display: flex;
     gap: 15px;
@@ -78,10 +91,16 @@ header .container {
 }
 
 .hero-left-section button {
-    font-size: 25px;
+    font-size: 20px;
     background-color: #151515;
     border: none;
     color: white;
+}
+
+.hero-left-section .button-bg {
+    position: relative;
+    right:241px;
+    top: 2px;
 }
 
 .logo-section .container {
@@ -158,4 +177,159 @@ header .container {
     position: relative;
     right: 45px;
     bottom: 40px;
+}
+
+.customer-reviews .container {
+    padding: 50px 150px ;
+    color: white;
+    text-align: center;
+}
+
+.review-heading h1{
+    font-size: 55px;
+    font-weight: 400;
+}
+
+.review-first-line {
+    margin-top: 50px;
+    display: flex;
+    gap: 30px;
+    font-size: 13px;
+    text-align: start;
+    justify-content: center;
+}
+
+.review-second-line {
+    margin-top: 50px;
+    display: flex;
+    gap: 30px;
+    font-size: 13px;
+    text-align: start;
+    justify-content: center;
+}
+
+.first-review {
+    width: 400px;
+    padding: 10px;
+    background-color: #565554;
+    border: 1px solid white;
+}
+
+.second-review,
+.third-review,
+.fourth-review {
+    width: 400px;
+    padding: 10px;
+    background-color: #1E1F24;
+    border: 1px solid white;
+}
+
+.dots {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.dot-1 {
+    width: 80px;
+    height: 13px;
+    border-radius: 10px;
+    background-color: #F637EC;
+    box-shadow:#F637EC;
+}
+
+.dot-2 {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background-color: #474447;
+}
+
+.get-started .container{
+    max-height: 80%;
+    padding: 100px 150px;
+    margin-top: 100px;
+    text-align: center;
+    color: white;
+}
+
+
+
+.get-started h1 {
+    font-size: 65px;
+    font-weight: 500;
+}
+
+.get-started h1 span {
+    color: black;
+}
+
+.get-started button {
+    font-size: 1.1rem;
+    background: none;
+    border: none;
+    color: white;
+    z-index: 1;
+}
+
+
+
+.get-started .button-bg img{
+    position: relative;
+    right: 95px;
+    bottom: 22px;
+    z-index: 0;
+}
+
+.rectangle-1 {
+    width: 100%;
+    position: relative;
+    bottom: 330px;
+    z-index: -1;
+}
+
+.rectangle-2 {
+    width: 100%;
+    position: relative;
+    bottom: 790px;
+    z-index: -1;
+}
+
+.diamond-left {
+    height: 400px;
+    position: relative;
+    bottom: 1242px;
+    z-index: -1;
+    left: 601px;
+}
+
+.diamond-right {
+    height: 400px;
+    position: relative;
+    bottom: 78rem;
+    right: 38rem;
+    z-index: -1;
+}
+
+footer .container {
+    margin-top: -1200px;
+    padding: 0 200px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+footer img {
+    width: 80%;
+}
+
+footer ul {
+    display: flex;
+    gap: 15px;
+    margin-left: 200px;
+}
+
+footer ul li {
+    list-style-type: none;
+    color: white;
 }
