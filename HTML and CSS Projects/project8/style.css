@@ -212,3 +212,35 @@ header .container {
 .pricing-section .blue-tick-image {
     width: 15px;
 }
+
+.customer-review .container {
+    padding: 40px 150px;
+
+}
+
+.customer-review .top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.customer-review .bottom {
+    display: flex;
+    gap: 40px;
+}
+
+.customer-review  .review-2 {
+    text-align: start;
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 30px;
+
+} 
+
+.customer-review  .review-1 {
+    background-color: #111010;
+    color: white;
+    text-align: start;
+    padding: 20px;
+    border-radius: 30px;
+} 
