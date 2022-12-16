@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-image: url(./photos/futuristic-bg.png);
+    padding: 10px 100px 55px 100px;
+    background-size: 100% 100%;
+}
+
+header .container {
+    color: white;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+header .sign-in {
+    margin-left: 650px;
+}
+
+.nav-list {
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+}
+
+header button {
+    margin-left: 10px;
+    padding: 10px 20px;
+    background-color: #F4694C;
+    color: white;
+}
+
+.container-2 .left-section {
+    width: 40%;
+}
+
+.container-2 .left-section .btn-2 {
+    background: none;
+    border: 1px solid white;
+}
+
+.container-2 .left-section h1{
+    font-size: 3rem;
+}
+
+.container-2 {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    margin-top: 45px;
+}
+
+.container-2 .right-section {
+    width: 15%;
+    text-align: center;
+}
+
+.container-2 .right-section .img-2 {
+    position: relative;
+    left: 150px;
+    bottom: 20px;
+}
+
+.container-2 .right-section p {
+    margin-top: 150px;
+}
