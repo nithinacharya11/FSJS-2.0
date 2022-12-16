@@ -193,23 +193,46 @@ header .container {
 }
 
 .pricing-section .bottom .regular {
-    border: 1px solid white;
+    text-align: start;
+    background-color: white;
     max-width: 35vh;
     padding: 20px 20px;
     border-radius: 40px;
+    color: #111010;
+}
+
+
+.pricing-section .bottom .standard {
+    background-color: #0C8BFD;
+    max-width: 35vh;
+    padding: 20px 20px;
+    border-radius: 40px;
+    color: white;
+    text-align: start;
+
+}
+
+.pricing-section .bottom .premium {
+    background-color: white;
+    max-width: 35vh;
+    padding: 20px 20px;
+    border-radius: 40px;
+    color: #111010;
+    text-align: start;
+
 }
 
 .tick {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: start;
     margin-bottom: 15px;
     gap: 5px;
     font-size: 15px;
 }
 
 
-.pricing-section .blue-tick-image {
+.pricing-section .blue-tick-image, .white-tick-image {
     width: 15px;
 }
 
@@ -244,3 +267,71 @@ header .container {
     padding: 20px;
     border-radius: 30px;
 } 
+
+.customer-review .scrollbar {
+    height: 5px;
+    margin-top: 50px;
+    display: flex;
+}
+
+.customer-review .scrollbar .one {
+    width: 250px;
+    background-color: #0C8BFD;
+}
+
+.customer-review .scrollbar .two {
+    background-color: lightgray;
+    width: 1000px;
+}
+
+.signup .container {
+    background-color: #111010;
+    color: white;
+}
+
+.signup form {
+    max-width: fit-content;
+    margin: auto;
+    padding: 20px 10px;
+    border-radius: 15px;
+    background-color: #292828;
+    margin-bottom: 70px;
+}
+
+.signup input, button {
+    padding: 12px;
+    border-radius: 30px;
+    margin: 5px;
+    background-color: #3E3D3D;
+    border: 1px solid #3E3D3D;
+}
+
+.signup button {
+    background-color: #0C8BFD;
+    color: white;
+    padding: 12px 22px;
+}
+
+.signup table{
+    margin: auto;
+    color: white;
+    border-spacing:200px 5px;
+    text-align: start;
+}
+
+
+.signup table th,td {
+    text-align: start;
+}
+
+.signup table td {
+    font-weight: 300;
+}
+
+.signup .bottom-logo {
+    padding: 40px 145px;
+}
+
+.signup img {
+    margin-top: 25px;
+}
