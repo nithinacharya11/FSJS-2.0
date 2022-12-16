@@ -71,3 +71,41 @@ header button {
 .container-2 .right-section p {
     margin-top: 150px;
 }
+
+.games-cards .game-1 {
+    max-width: 250px;
+    border: 1px solid black;
+}
+
+.games-cards .main-image {
+    max-width: 100%;
+}
+
+.games-cards .star-image {
+    width: 10vh;
+}
+
+.games-cards button {
+    padding: 8px 16px;
+    background-color: #F4694C;
+    color: white;
+    border: none;
+}
+
+.games-cards .game-info {
+    display: flex;
+    align-items: flex-end;
+    padding: 5px;
+    background-color: #414546;
+    text-align: start;
+}
+
+.games-cards {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+}
+
+.games-section {
+    text-align: center;
+}
