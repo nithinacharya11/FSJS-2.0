@@ -72,13 +72,17 @@ header button {
     margin-top: 150px;
 }
 
-.games-cards .game-1 {
+.games-cards .game-1,
+ .game-2,
+ .game-3,
+ .game-4 {
     max-width: 250px;
-    border: 1px solid black;
+    border: none;
 }
 
 .games-cards .main-image {
     max-width: 100%;
+    max-height: 150px;
 }
 
 .games-cards .star-image {
@@ -108,4 +112,182 @@ header button {
 
 .games-section {
     text-align: center;
+}
+
+.game-info {
+    margin-top: -10px;
+}
+
+.explore-now {
+    display: flex;
+    padding: 100px 225px;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.explore-now .left-image{
+    max-width: 50vh;
+}
+
+.explore-now .left {
+    width: 50%;
+}
+
+.explore-now .right {
+    width: 50%;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.explore-now h1{
+    font-size: 2rem;
+}
+
+.explore-now button {
+    margin-left: 10px;
+    padding: 10px 20px;
+    border: 1px solid #F4694C;
+    background-color: #F4694C;
+    color: white;
+}
+
+.explore-now .btn-2 {
+    background: none;
+    color: #F4694C;
+    border: 1px solid #F4694C;
+}
+
+.games-recommendation {
+    padding: 100px 225px;
+}
+
+.games-recommendation .heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.games-recommendation h1 {
+    font-size: 2.4rem;
+    width: 450px;
+}
+
+.games-recommendation button {
+    height: 5vh;
+    background-color: #F4694C;
+    border: 1px solid #F4694C;
+    padding: 15px;
+    margin-right: 10px;
+}
+
+.games-recommendation .first-row, .second-row, .one, .two, .three, .four {
+    display: flex;
+}
+
+.games-recommendation .one, .twp, .three, .four {
+    max-width: 50%;
+    padding: 10px;
+}
+
+.games-recommendation img {
+    max-width: 200px;
+    height: fit-content;
+}
+
+.games-recommendation .game-info {
+    padding: 10px;
+}
+
+.games-recommendation button {
+    padding: 10px;
+    color: white;
+}
+
+.most-played-games {
+    background-color: black;
+    color: white;
+    background-image: url();
+}
+
+.most-played-games .container {
+    padding: 100px 225px;
+    text-align: center;
+}
+
+.most-played-games .top {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+
+.most-played-games .right {
+    width: 50%;
+    text-align: start;
+}
+
+.most-played-games .img-1 {
+    width: 350px;
+    height: 400px;
+}
+
+.most-played-games .img-2 {
+    width: 47%;
+    height: 68%;
+}
+
+.most-played-games .img-3 {
+    width: 41%;
+    height: 41%;
+}
+
+.most-played-games .bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    margin-top: 10rem;
+    background-image: url(./photos/Rectangle\ 606.png);
+    background-size: 100% 100%;
+}
+
+.most-played-games .bottom h1 {
+    font-size: 2rem;
+}
+
+.most-played-games button {
+    padding: 10px;
+    color: white;
+    background-color: #F4694C;
+    border: none;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    gap: 50px;
+    padding: 100px 225px;
+
+}
+
+footer .left {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+footer table, th, td{
+    border-spacing:100px 5px;
+    text-align: start;
+}
+
+footer table td {
+    color: gray;
+}
+
+footer .logo {
+    width: 10px;
 }
