@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.header-main {
+    background: url(./Photos/mainBackground.png) ;
+    filter: brightness(90%);
+    padding: 20px 100px;
+} 
+
+header {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+header ul {
+    display: flex;
+    list-style-type: none;
+    gap: 60px;
+}
+
+article {
+    width: 30%;
+    color: white;
+    padding: 80px 0px;
+}
+
+article h1 {
+    font-size: 3rem;
+}
+
+article p{
+    font-size: 1rem;
+}
+
+article button{
+    padding: 13px 27px;
+    background-color: #6663E9;
+    color: white;
+    border: none;
+    border-radius: 20px;
+}
+
+.logo-banner .container {
+    padding: 36px 63px;
+    width: 80%;
+    margin: auto;
+    border-radius: 20px;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    position: relative;
+    bottom: 20px;
+    box-shadow: 0px 0px 5px 0px gray
+}
+
+.logo-banner img {
+    width: 130px;
+}
+
+.house-list .container {
+    padding: 20px 100px;
+    text-align: center;
+}
+
+.house {
+    width: 30%;
+}
+
+.house img{
+    width: 70%;
+    height: 250px;
+    border-radius: 20px;
+}
+
+.house .details {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    box-shadow: 0 0 1px 0 ;
+    border-radius: 20px;
+    height: 70px;
+    gap: 5px;
+    padding: 5px 10px;
+    position: relative;
+    bottom: 30px;
+    background-color: white;
+}
+
+.house-list button{
+    background-color: #6663E9;
+    border: none;
+    padding: 10px 19px;
+    color: white;
+    border-radius: 20px;
+}
+
+.row {
+    display: flex;
+}
