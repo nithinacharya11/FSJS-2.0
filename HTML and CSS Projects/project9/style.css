@@ -72,17 +72,46 @@ header button {
     margin-top: 150px;
 }
 
-.games-cards .game-1,
- .game-2,
- .game-3,
- .game-4 {
-    max-width: 250px;
-    border: none;
+.games-section h1{
+    font-size: 2rem;
+    margin-top: 95px;
+    margin-bottom: 55px;
 }
 
-.games-cards .main-image {
+.games-cards .game-1,
+.game-2,
+.game-3,
+.game-4 {
+    color: white;
     max-width: 100%;
-    max-height: 150px;
+    max-height: 100%;    
+}
+
+.games-cards .game-1 {
+    background-image: url(./photos/image\ 2.png);
+    background-size: 100% 100%;
+}
+
+.games-cards .game-2 {
+    background-image: url(./photos/image\ 3.png);
+    background-size: 100% 100%;
+}
+
+.games-cards .game-3 {
+    background-image: url(./photos/image\ 4.png);
+    background-size: 100% 100%;
+}
+
+.games-cards .game-4 {
+    background-image: url(./photos/Rectangle\ 56.png);
+    background-size: 100% 100%;
+}
+
+
+
+.games-cards .main-image {
+    width: 100%;
+    height: 250px;
 }
 
 .games-cards .star-image {
@@ -96,12 +125,16 @@ header button {
     border: none;
 }
 
+.games-cards .game-photo {
+    height: 150px;
+}
+
 .games-cards .game-info {
     display: flex;
     align-items: flex-end;
-    padding: 5px;
-    background-color: #414546;
+    padding: 15px;
     text-align: start;
+    backdrop-filter: blur(10px);
 }
 
 .games-cards {
@@ -126,7 +159,10 @@ header button {
 }
 
 .explore-now .left-image{
-    max-width: 50vh;
+    width: 89%;
+    height: 72%;
+    position: relative;
+    top: 15vh;
 }
 
 .explore-now .left {
@@ -139,6 +175,11 @@ header button {
     display: flex;
     flex-direction: column;
     gap: 10px;
+}
+
+.explore-now .right p {
+    font-size: 0.9rem;
+    color: gray;
 }
 
 .explore-now h1{
@@ -161,6 +202,15 @@ header button {
 
 .games-recommendation {
     padding: 100px 225px;
+}
+
+.games-recommendation .gameinfo {
+    color: gray;
+    font-size: 0.9rem;
+}
+
+.games-recommendation .action {
+    color: #F4694C;
 }
 
 .games-recommendation .heading {
@@ -186,8 +236,9 @@ header button {
     display: flex;
 }
 
-.games-recommendation .one, .twp, .three, .four {
-    max-width: 50%;
+.games-recommendation .one, .two, .three, .four {
+    width: 700px;
+    height: 100%;
     padding: 10px;
 }
 
@@ -216,10 +267,16 @@ header button {
     text-align: center;
 }
 
+.most-played-games .header {
+    font-size: 2rem;
+}
+
 .most-played-games .top {
     display: flex;
     justify-content: center;
     gap: 70px;
+    font-size: 0.9rem;
+    color: gray;
 }
 
 .most-played-games .right {
@@ -280,7 +337,7 @@ footer .left {
 }
 
 footer table, th, td{
-    border-spacing:100px 5px;
+    border-spacing:33px 16px;
     text-align: start;
 }
 
@@ -290,4 +347,8 @@ footer table td {
 
 footer .logo {
     width: 10px;
+}
+
+footer td {
+    width: 150px;
 }
