@@ -65,14 +65,15 @@ article button{
 .house-list .container {
     padding: 20px 100px;
     text-align: center;
+    margin: auto;
 }
 
 .house {
-    width: 30%;
+    width: 290px;
 }
 
 .house img{
-    width: 70%;
+    width: 100%;
     height: 250px;
     border-radius: 20px;
 }
@@ -103,4 +104,118 @@ article button{
 
 .row {
     display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+#house-2 {
+    position: relative;
+    top: 20px;
+}
+
+#house-3 {
+    position: relative;
+    top: 40px;
+}
+#house-4 {
+    position: relative;
+    top: 80px;
+}
+#house-5 {
+    position: relative;
+    top: 60px;
+}
+#house-6 {
+    position: relative;
+    top: 40px;
+}
+#house-7 {
+    position: relative;
+    top: 80px;
+}
+#house-8 {
+    position: relative;
+    top: 100px;
+}
+#house-9 {
+    position: relative;
+    top: 120px;
+}
+
+.features .container {
+    padding: 200px 0px;
+}
+
+.features img {
+    width: 81%;
+    height: 58%;
+    position: relative;
+    bottom: 396px;
+    left: 132px;
+    border-radius: 40px;
+}
+
+.features .row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.features .left {
+    width: 30%;
+}
+
+.features .violet {
+    height: 45vh;
+    background-color: #6663E9;
+    border-radius: 40px;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+}
+
+.features .white {
+    margin: auto;
+    height: 90%;
+    width: 50%;
+    background-color: white;
+    border-radius: 40px;
+}
+
+.features .right {
+    width: 30%;
+    text-align: start;
+}
+
+.features h1 {
+    font-size: 2.5rem;
+}
+
+.features p {
+    color: gray;
+}
+
+.features button {
+    background-color: #6663E9;
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+.second-row .violet {
+    height: 45vh;
+    background-color: #6663E9;
+    border-radius: 40px;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+}
+
+
+.second-row img {
+    width: 81%;
+    height: 58%;
+    position: relative;
+    bottom: 378px;
+    left: -44px;
+    border-radius: 40px;
 }
