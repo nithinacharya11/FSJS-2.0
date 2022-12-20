@@ -24,3 +24,5 @@
 
 
 ## Articles on Javascript
+
+- [1. Arrays in Javascript](https://nithinacharya11.hashnode.dev/arrays-in-javascript)
