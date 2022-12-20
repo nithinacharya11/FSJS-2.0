@@ -12,6 +12,7 @@
 - [Project 6](/HTML%20and%20CSS%20Projects/project6)
 - [Project 7](/HTML%20and%20CSS%20Projects/project7)
 - [Project 8](/HTML%20and%20CSS%20Projects/project8)
+- [Project 9](/HTML%20and%20CSS%20Projects/project9)
 
 ## Tailwind Assignments
 - [VSCode-Clone](/Tailwind%20Projects/VScode-clone/)
