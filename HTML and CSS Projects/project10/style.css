@@ -219,3 +219,69 @@ article button{
     left: -44px;
     border-radius: 40px;
 }
+
+.newsletter .container {
+    width: 70%;
+    background-color: #6663E9;
+    color: white;
+    padding: 39px;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: -220px;
+    text-align: center;
+}
+
+.newsletter h1 {
+    font-size: 2.5rem;
+    font-weight: 500;
+    width: 60%;
+    margin: auto;
+}
+
+.newsletter input {
+    padding: 15px 71px;
+    background-color: #5654D1;
+    border: none;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+
+.newsletter button {
+    padding: 13px 26px;
+    background-color: white;
+    color: #5653D1;
+    border: none;
+    border-radius: 20px;
+}
+
+footer {
+    background-color: white;
+    color: black;
+    display: flex;
+    gap: 50px;
+    padding: 100px 225px;
+
+}
+
+footer .left {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+footer table, th, td{
+    border-spacing:33px 16px;
+    text-align: start;
+}
+
+footer table td {
+    color: gray;
+}
+
+footer .logo {
+    width: 10px;
+}
+
+footer td {
+    width: 150px;
+}
