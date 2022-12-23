@@ -4,4 +4,144 @@ html {
 
 body {
     margin: 0;
+    background-color: #0F0F10;
+}
+
+header {
+    padding: 25px 250px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    margin-right: 300px;
+}
+
+header nav ul {
+    display: flex;
+    gap: 50px;
+}
+
+header ul {
+    list-style-type: none;
+}
+
+header button {
+    padding: 11px 31px;
+    background-color: #1E1E21;
+    color: white;
+    border-radius: 20px;
+    border: none;
+}
+
+main .hero {
+    display: flex;
+}
+
+.hero .left {
+    width: 40%;
+    text-align: center;
+}
+
+.hero .left img {
+    width: 40%;
+    position: relative;
+    left: 100px;
+    bottom: 170px;
+}
+
+.hero .right {
+    width: 30%;
+    text-align: start;
+    padding: 20px;
+    color: white;
+}
+
+.hero .right h1{
+    font-size: 2rem;
+}
+
+.hero .right button {
+    background-color: #1E1E21;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 25px;
+}
+
+.hero .overview {
+    font-size: 1.2rem;
+}
+
+.hero .right img {
+    position: relative;
+    left: 20px;
+    width: 40%;
+}
+
+.hero .right .para {
+    color: gray;
+    font-size: 0.9rem;
+}
+
+.hero button img {
+    max-width: 15px;
+    margin-right: 30px;
+}
+
+.brands .container {
+    padding: 25px 250px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: -100px;
+}
+
+.brands img {
+    width: 75px;
+}
+
+.specs {
+    width: 35%;
+    margin: 100px auto;
+    color: white;
+}
+
+.specs .top {
+    text-align: center;
+}
+
+.specs .bottom {
+    margin-top: 50px;
+    display: flex;
+    gap: 50px;
+    font-size: 0.8rem;
+    position: relative;
+    left: 80px;
+}
+
+.specs .bottom .left img {
+    width: 10px;
+}
+
+.specs .bluetooth {
+    position: relative;
+    left: 0px;
+    right: 0px;
+}
+.specs .battery {
+    position: relative;
+    left: -30px;
+    right: 0px;
+}
+.specs .load {
+    position: relative;
+    left: -30px;
+    right: 0px;
+}
+.specs .microphone {
+    position: relative;
+    left: 0px;
+    right: 0px;
 }
