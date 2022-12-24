@@ -1,5 +1,5 @@
 # Beats landing page
 
-[Live link]()
+[Live link](https://fluffy-sunburst-a0e472.netlify.app)
 
-![Output]()
+![Output](./Photos/website.png)

@@ -102,27 +102,30 @@ main .hero {
     width: 75px;
 }
 
-.specs {
+.specs,
+.case {
     width: 35%;
     margin: 100px auto;
     color: white;
 }
 
-.specs .top {
+.specs .top,
+.case .top {
     text-align: center;
 }
 
-.specs .bottom {
+.specs .bottom,
+.case .bottom {
     margin-top: 50px;
     display: flex;
     gap: 50px;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     position: relative;
     left: 80px;
 }
 
 .specs .bottom .left img {
-    width: 10px;
+    width: 12px;
 }
 
 .specs .bluetooth {
@@ -144,4 +147,164 @@ main .hero {
     position: relative;
     left: 0px;
     right: 0px;
+}
+
+.case-image{
+    width: 225px;
+}
+
+.case .right {
+    margin-top: 50px;
+    width: 30%;
+    color: gray;
+}
+
+.case button {
+    margin-top: 10px;
+    background-color: #1E1E21;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 20px;
+}
+
+.case button img {
+    width: 10px;
+    margin-right: 10px;
+}
+
+.buynow .container {
+    width: 50%;
+    margin: auto;
+    padding: 25px 30px;
+    background-color: #1E1E21;
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.buynow {
+    font-size: 0.8rem;
+}
+
+.buynow .left{
+    width: 25%;
+}
+
+.buynow .right img {
+    width: 250px;
+}
+
+.buynow button {
+    background-color: #0F0F10;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 20px
+}
+
+.buynow button img {
+    margin-right: 10px;
+    width: 15px;
+}
+
+.choosestyle .container {
+    width: 50%;
+    margin: 100px auto;
+}
+
+.choosestyle .headphone {
+    width: 100px;
+    position: relative;
+    top: 74px;
+    left: 32px;
+}
+
+.choosestyle .top {
+    margin: auto;
+    text-align: center;
+}
+
+.choosestyle .top img {
+    width: 200px;
+}
+
+.choosestyle #box {
+    color: white;
+    width: fit-content;
+    padding: 20px;
+    font-size: 0.8rem;
+}
+
+.choosestyle .bag {
+    width: 15px;
+    margin-left: 50px;
+    background-color: #0F0F10;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.choosestyle .desc {
+    padding:100px 25px 25px 25px;
+    background-color: #1E1E21;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.choosestyle .bottom {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.heading {
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+footer .container {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding: 25px 250px;
+    color: white;
+    gap: 125px;
+}
+
+footer ul{
+    list-style-type: none;
+}
+
+footer ul li{
+    margin-top: 5px;
+    font-weight: 200;
+    font-size: 0.8rem;
+}
+
+.logolist {
+    display: flex;
+    margin-top: 20px;
+    gap: 15px;
+}
+
+footer .email .top {
+    background-color: #1E1E21;
+    padding: 10px;
+}
+
+footer #email {
+    background-color: #1E1E21;
+    border: none;
+    border-radius: 20px;
+}
+
+footer button{
+    background-color: #0F0F10;
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
 }
