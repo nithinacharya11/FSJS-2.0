@@ -184,6 +184,67 @@ header button {
     width: 12vh;
 }
 
+#main-bottom {
+    padding: 25px 250px;
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    margin-top: 100px;
+}
 
+#main-bottom .right {
+    width: 35%;
+    text-align: center;
+    padding: 20px;
+    border: none;
+    background-color: #F9F0FF;
+}
+
+#main-bottom .left {
+    width: 30%;
+    padding: 50px 10px;
+}
+
+
+#main-bottom .left p {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+#main-bottom .left img {
+    margin-right: 46px;
+    margin-bottom: 65px;
+}
+
+#main-bottom input {
+    display: block;
+    margin: auto;
+    background: none;
+    color: gray;
+    border: 1px solid lightgray;
+    padding: 15px 25px;
+    width: 83%;
+    margin-top: 15px;
+    border-radius: 3px;
+}
+
+#main-bottom button {
+    padding: 15px 25px;
+    background-color: #722ED1;
+    color: #ffffff;
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+}
+
+#main-bottom .right p {
+    font-size: 0.9rem;
+    color: gray;
+}
+
+form {
+    background-color: #ffffff;
+    padding: 10px;
+}
 
 
