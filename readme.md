@@ -15,6 +15,7 @@
 - [Project 9 - Gaming landing page](/HTML%20and%20CSS%20Projects/project9)
 - [Project 10 - Real-estate landing page](/HTML%20and%20CSS%20Projects/project10)
 - [Project 11 - Beats landing page](/HTML%20and%20CSS%20Projects/project11)
+- [Project 12 - Data Analytics Landing Page](/HTML%20and%20CSS%20Projects/project12)
 
 ## Tailwind Assignments
 - [VSCode-Clone](/Tailwind%20Projects/VScode-clone/)
