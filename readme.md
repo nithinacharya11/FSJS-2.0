@@ -21,3 +21,4 @@
 - [VSCode-Clone](/Tailwind%20Projects/VScode-clone/)
 
 ## Javascript Assignments
+- [30 questions answers](./Javascript%20Assignments/)
